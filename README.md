@@ -2,6 +2,9 @@
 
 A simple and efficient web app built with Streamlit and OpenAI's Whisper model that takes an audio file (.wav/.mp3) as input, applies noise reduction, and generates an accurate transcript along with timestamps.
 
+## 1. Objective
+Build a real-time or file-based transcription system.
+
 ## 2. Project Overview
 
 This project aims to make speech transcription accessible via a lightweight web interface. Users can upload an audio file and receive transcriptions with precise time-stamped segments using Whisper — a state-of-the-art automatic speech recognition (ASR) model developed by OpenAI.
