@@ -53,7 +53,7 @@ if uploaded_file:
     st.subheader("Transcript")
     st.write(result["text"])
 
-    st.subheader("⏱️ Timestamps")
+    st.subheader("Timestamps")
     for seg in result["segments"]:
         st.write(f"[{seg['start']:.2f}s - {seg['end']:.2f}s] {seg['text']}")
 
