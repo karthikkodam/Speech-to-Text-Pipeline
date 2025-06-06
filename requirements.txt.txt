@@ -1,0 +1,11 @@
+git+https://github.com/openai/whisper.git
+librosa
+torch
+transformers
+noisereduce
+scipy
+numpy
+streamlit
+streamlit-webrtc
+torchaudio
+datasets
