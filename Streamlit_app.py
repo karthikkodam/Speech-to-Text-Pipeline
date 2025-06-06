@@ -46,11 +46,11 @@ if uploaded_file:
     """, unsafe_allow_html=True)
     
     st.audio(uploaded_file, format='audio/wav')
-    with st.spinner("Transcribing... please wait ⏳"):
+    with st.spinner("Transcribing... please wait "):
         result, audio, sr = transcribe_audio(uploaded_file)
 
-    st.success("Transcription Complete! ✅")
-    st.subheader("📜 Transcript")
+    st.success("Transcription Complete! ")
+    st.subheader("Transcript")
     st.write(result["text"])
 
     st.subheader("⏱️ Timestamps")
